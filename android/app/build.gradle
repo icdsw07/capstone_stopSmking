@@ -33,5 +33,6 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.0.1'
     implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.0.1'
     implementation 'com.prolificinteractive:material-calendarview:1.4.3'
+    implementation 'com.akexorcist:bluetoothspp:1.0.0'
 
 }
