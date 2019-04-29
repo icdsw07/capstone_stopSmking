@@ -21,13 +21,24 @@ void loop(){
 
   MQ7.CoPwrCycler();  
   sensorValue[0] = analogRead(CoSensorOutput);
-  if(sensorValue[0] > 200){
+  if(sensorValue[0] < 30){
     BTSerial.write(Serial.read());
-    BTSerial.println("1");
+    BTSerial.println("0");
+    BTSerial.println(" ");
+  }
+  if(38 <= sensorValue[0] <= 70){
+    BTSerial.write(Serial.read());
+    BTSerial.println("2");
+    BTSerial.println(" ");
+  }
+  if(sensorValue[0] > 100){
+    BTSerial.write(Serial.read());
+    BTSerial.println("2");
+    BTSerial.println(" ");
   }
   
-  Serial.print(sensorValue[0]);
-  Serial.println();
+  //Serial.print(sensorValue[0]);
+  //Serial.println();
   
   delay(500);    
 }
