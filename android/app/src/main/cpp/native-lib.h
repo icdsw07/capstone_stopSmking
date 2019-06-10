@@ -1,0 +1,8 @@
+//
+// Created by JSW on 2019-05-05.
+//
+
+#ifndef STOPSMOKING_NATIVE_LIB_H
+#define STOPSMOKING_NATIVE_LIB_H
+
+#endif //STOPSMOKING_NATIVE_LIB_H

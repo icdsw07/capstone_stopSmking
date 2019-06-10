@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_measure"
+            android:icon="@drawable/ic_menu_star"
+            android:title="측정" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_menu_person_black"
+            android:title="측정현황" />
+        <item
+            android:id="@+id/nav_motivation"
+            android:icon="@drawable/ic_new_releases_black_24dp"
+            android:title="생각날때" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="설정" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="로그아웃" />
+    </group>
+
+</menu>
